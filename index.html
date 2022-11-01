@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Compra Y Venta De Autos</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Compra Y Venta De Autos</h1>
+        </header>
+
+        <div id="filtros">
+            <div class="select">
+                <label for="marca">Marca:</label>
+                <select name="marca" id="marca">
+                    <option>Seleccione</option>
+                    <option value="audi">Audi</option>
+                    <option value="mercedesBenz">Mercedes Benz</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="ford">Ford</option>
+                    <option value="dodger">Dodger</option>
+                </select>
+            </div>
+            <div class="select">
+                <label for="year">Año:</label>
+                <select name="year" id="year">
+                    <option>Seleccione</option>
+                </select>
+            </div>
+            <div class="select">
+                <label for="minimo">Precio Min:</label>
+                <select name="minimo" id="minimo">
+                    <option>Seleccione</option>
+                    <option value="20,000">20,000</option>
+                    <option value="30,000">30,000</option>
+                    <option value="40,000">40,000</option>
+                    <option value="50,000">50,000</option>
+                    <option value="60,000">60,000</option>
+                    <option value="70,000">70,000</option>
+                    <option value="80,000">80,000</option>
+                    <option value="90,000">90,000</option>
+                </select>
+            </div>
+            <div class="select">
+                <label for="maximo">Precio Max:</label>
+                <select name="maximo" id="maximo">
+                    <option>Seleccione</option>
+                    <option value="20,000">20,000</option>
+                    <option value="30,000">30,000</option>
+                    <option value="40,000">40,000</option>
+                    <option value="50,000">50,000</option>
+                    <option value="60,000">60,000</option>
+                    <option value="70,000">70,000</option>
+                    <option value="80,000">80,000</option>
+                    <option value="90,000">90,000</option>                
+                </select>
+            </div>
+            <div class="select">
+                <label for="transmision">Transmisión</label>
+                <select name="transmision" id="transmision">
+                    <option>Seleccione</option>
+                    <option value="automatico">Automático</option>
+                    <option value="manual">Manual</option>
+                </select>       
+            </div>
+            <div class="select">
+                <label for="puertas">Puertas:</label>
+                <select name="puertas" id="puertas">
+                    <option>Seleccione</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="select">
+                <label for="color">Color:</label>
+                <select name="color" id="color">
+                    <option>Seleccione</option>
+                    <option value="blanco">Blanco</option>
+                    <option value="azul">Azul</option>
+                    <option value="negro">Negro</option>
+                    <option value="rojo">Rojo</option>
+                </select>   
+            </div>
+            <div class="select">
+                <label for="condicion">Condición:</label>
+                <select name="condicion" id="condicion">
+                    <option>Selecciona</option>
+                    <option value="nuevo">Nuevo</option>
+                    <option value="usado">Usado</option>
+                </select>
+            </div>            
+        </div>
+
+        <div id="resultado">
+            <h2>autos disponibles</h2>
+        </div>
+    </main>
+    <script src="/db.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
