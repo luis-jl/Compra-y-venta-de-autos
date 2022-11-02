@@ -8,7 +8,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{
 		img: "/img/crv2015.jpg",
@@ -19,7 +19,7 @@ const autos = [
 		puertas: 4,
 		color: 'Roja',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{
 		img: "/img/crv2022b.jpeg",
@@ -30,7 +30,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanca',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{
 		img: "/img/crv2018a.jpg",
@@ -41,7 +41,7 @@ const autos = [
 		puertas: 4,
 		color: 'Azul',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	
 	{ 
@@ -53,7 +53,7 @@ const autos = [
         puertas: 4, 
         color: 'Negro', 
         transmision: 'automatico', 
-		condicion: "Usado"
+		estado: 'Usado'
     },
 	{
 		img: "/img/Ford2015.jpg",
@@ -64,7 +64,7 @@ const autos = [
 		puertas: 2,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Usado"
+		estado: 'Usado'
 	},
 	{ 
 		img: "/img/AudiA6.jpg",
@@ -75,7 +75,7 @@ const autos = [
         puertas: 4, 
         color: 'Negro', 
         transmision: 'automatico', 
-		condicion: "Nuevo"
+		estado: 'Nuevo'
     },
 	{
 		img: "/img/bmwS5.jpg",
@@ -86,7 +86,7 @@ const autos = [
 		puertas: 4,
 		color: 'Rojo',
 		transmision: 'automatico',
-		condicion: "Usado"
+		estado: 'Usado'
 	},
 	{
 		img: "/img/mercedesC.jpg",
@@ -97,7 +97,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{
 		img: "/img/chebro.jpg",
@@ -108,7 +108,7 @@ const autos = [
 		puertas: 2,
 		color: 'Rojo',
 		transmision: 'manual',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{ 
 		img: "/img/Ford2019.jpg",
@@ -119,7 +119,7 @@ const autos = [
         puertas: 2, 
         color: 'Rojo', 
         transmision: 'manual' 
-		,condicion: "Usado"
+		,estado: 'Usado'
     },
 	{
 		img: "/img/dodgeb.jpg",
@@ -130,7 +130,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{ 
 		img: "/img/AudiA3.jpg",
@@ -141,7 +141,7 @@ const autos = [
         puertas: 2, 
         color: 'Negro', 
         transmision: 'manual', 
-		condicion: "Nuevo"
+		estado: 'Nuevo'
     },
 	{
 		img: "/img/dodger.jpg",
@@ -152,7 +152,7 @@ const autos = [
 		puertas: 2,
 		color: 'Rojo',
 		transmision: 'manual',
-		condicion: "Usado"
+		estado: 'Usado'
 	},
 	{
 		img: "/img/mercedesC2018.jpg",
@@ -163,7 +163,7 @@ const autos = [
 		puertas: 4,
 		color: 'Azul',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{
 		img: "/img/bmwS5.jpg",
@@ -174,7 +174,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{ 
 		img: "/img/ford2017.jpeg",
@@ -185,7 +185,7 @@ const autos = [
         puertas: 2, 
         color: 'Negro', 
         transmision: 'manual' 
-		,condicion: "Usado"
+		,estado: 'Usado'
     },
 	{
 		img: "/img/dodgea.jpg",
@@ -196,7 +196,7 @@ const autos = [
 		puertas: 2,
 		color: 'Azul',
 		transmision: 'automatico',
-		condicion: "Usado"
+		estado: 'Usado'
 	},
 	{
 		img: "/img/bmwS32018.jpg",
@@ -207,7 +207,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Usado"
+		estado: 'Usado'
 	},
 	{
 		img: "/img/bmwS52017.jpg",
@@ -218,7 +218,7 @@ const autos = [
 		puertas: 4,
 		color: 'Negro',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{
 		img: "/img/mercedesC2018.jpg",
@@ -229,7 +229,7 @@ const autos = [
 		puertas: 4,
 		color: 'Blanco',
 		transmision: 'automatico',
-		condicion: "Nuevo"
+		estado: 'Nuevo'
 	},
 	{ 
 		img: "/img/AudiA4Azul.jpg",
@@ -240,6 +240,6 @@ const autos = [
         puertas: 4, 
         color: 'Azul', 
         transmision: 'automatico', 
-		condicion: "Nuevo"
+		estado: 'Nuevo'
     }
 ];
